@@ -1,0 +1,120 @@
+@media screen and(max-width:600px) {
+    .category-content .card img{
+        width: 20%;
+        height: 40%;
+        margin: auto;
+        padding:1%;
+        border-radius:44%;
+        border-color: honeydew;
+    }
+}
+
+*{
+    list-style: none;
+    text-indent: 1vw;
+    letter-spacing: 0.10vw;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    overflow: scroll;
+}
+/* headers */
+.list-group a{
+    color: black;
+}
+/* footers */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8vw;
+    text-transform: capitalize;
+    border-top: solid salmon;
+}
+
+.footer-title{
+    letter-spacing: 0.02rem;
+}
+
+.footer-middle{
+    margin: auto;
+    padding: 10px;
+}
+/* category */
+.b-card{ /*for border*/
+    border: solid thin rgb(218, 208, 208);
+}
+.category-title ,.products-title{
+    width: fit-content;
+    float: left;
+    margin-right: auto;
+    bottom: 17vh;
+    left: 1.44vw;
+    top: 1.05vh;
+}
+.category-content{
+    /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+    margin-left: 2.12rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    overflow-x: auto;
+}
+.category-content  .card {
+    overflow:hidden;
+    height: 30vh;
+    width: 15vw;
+}
+.category-content .card img {
+    /* width: 10.5vw; */
+    width: 100%;
+    height: 200%;
+    margin: auto;
+    padding:0.25vw;
+    border-radius:44%;
+    border-color: honeydew;
+}
+.category-content .card:hover {
+    border: solid thin rgb(187, 184, 184);
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.products .card:hover{
+    border: solid thin salmon;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.card-text-category{
+    font-size: 0.75rem;
+    width: 10.25rem;
+}
+.products img{
+    width: 300px;
+    height: 150px;
+    border-radius: 6px;
+}
+/* colors */
+.color-white{color: rgba(235, 229, 229, 0.904);}
+/* background */
+.bg-salmon{
+    background-color: salmon;
+}
+.bg-blue{
+    background-color: salmon;
+}
+/* text */
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: salmon;
+}
